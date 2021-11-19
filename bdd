@@ -1,0 +1,17 @@
+table user
+col. id_user (int) (limite de caractère 255) primary key A_I
+col. nom (varchar) (limite de caractère 55)
+col. prenom (varchar) (limite de caractère 55)
+col. email (varchar) (limite de caractère 55)
+col. paassword (varchar) (limite de caractère 55)
+col. droit (boolean) (0 ou 1 // true or false)
+
+
+table article
+col. id_article (int) (limite de caractère 255) primary key A_I
+col. title_article (varchar) (limite de caractère 255)
+col. text_article (varchar) (limite de caractère 255)
+col. image_article (varchar) (limite de caractère 255)
+col. price_article (int) (limite de caractère 255)
+col. desciption_article (varchar) (limite de caractère 255)
+col. quantity_article (int) (limite de caractère 255)
